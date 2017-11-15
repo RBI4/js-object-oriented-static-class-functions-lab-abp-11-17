@@ -1,11 +1,11 @@
 'use strict';
 
 class Question{
-    static All(){
+    static All() {
       return this._All
   }
 
-  static Find(Id){
+  static Find(id){
     return.this.All()[id-1]
     }
 
@@ -15,7 +15,7 @@ constructor(content){
 }
 
   save(){
-    this.constructor._All.find(this)
+    this.constructor._All.push(this)
   }
 }
 
