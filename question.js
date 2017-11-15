@@ -10,7 +10,7 @@ class Question{
     }
 
 constructor(content){
-  this.content = content
+  this.content = content;
   this.save()
 }
 
