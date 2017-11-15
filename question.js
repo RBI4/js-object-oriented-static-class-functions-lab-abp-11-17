@@ -14,7 +14,7 @@ constructor(content){
   this.save()
 }
 
-  save(){
+  save() {
     this.constructor._All.push(this)
   }
 }
